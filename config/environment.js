@@ -17,7 +17,7 @@ module.exports = function(environment) {
         // e.g. EMBER_NATIVE_DECORATOR_SUPPORT: true
         EMBER_MODULE_UNIFICATION: true,
         EMBER_NATIVE_DECORATOR_SUPPORT: true,
-        EMBER_METAL_TRACKED_PROPERTIES: true,
+        EMBER_METAL_TRACKED_PROPERTIES: false
       },
       EXTEND_PROTOTYPES: {
         // Prevent Ember Data from overriding Date.parse.
